@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newgier</title>
+<meta name="description" content="Newgier – Nährstoffe verstehen. Eine Android-App, die deine Mikronährstoffe so genau zeigt, wie es die Daten erlauben.">
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="canonical" href="https://newgier.app/">
+<style>
+  :root {
+    --bg: #fbf8f3;
+    --text: #22201c;
+    --muted: #5d574e;
+    --line: #e4ddd1;
+    --accent: #1f6f78;
+    --box: #f1ece3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #181a1b;
+      --text: #ece8e1;
+      --muted: #b1aba1;
+      --line: #34373a;
+      --accent: #6cc3cc;
+      --box: #22262a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #181a1b;
+    --text: #ece8e1;
+    --muted: #b1aba1;
+    --line: #34373a;
+    --accent: #6cc3cc;
+    --box: #22262a;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 36rem; margin: 0 auto; padding: 48px 16px 64px; text-align: center; }
+  img.finn { width: 128px; height: 128px; border-radius: 28px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 1rem 0 .25rem; }
+  .unter { color: var(--muted); margin: 0 0 1.75rem; }
+  .kasten { background: var(--box); border-radius: 12px; padding: 14px 18px; text-align: left; }
+  .kasten p { margin: .4rem 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  footer a { margin: 0 .4rem; }
+</style>
+</head>
+<body>
+<main>
+  <img class="finn" src="/finn.webp" alt="Finn, der Otter von Newgier, mit einem leuchtenden Ring in den Pfoten">
+  <h1>Newgier</h1>
+  <p class="unter">Nährstoffe verstehen</p>
+  <div class="kasten">
+    <p>Newgier zeigt dir, welche Vitamine und Mineralstoffe in deinem Essen stecken – so genau, wie es die verfügbaren Daten erlauben, und ehrlich darüber, wo sie aufhören.</p>
+    <p>Die App ist gerade im geschlossenen Test für Android. Deine Daten bleiben auf deinem Handy.</p>
+  </div>
+  <footer>
+    <a href="/datenschutz/">Datenschutz</a>·<a href="mailto:newgier.app@gmail.com">newgier.app@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
